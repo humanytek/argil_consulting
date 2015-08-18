@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openerp>
+    <data>
+
+	<!-- Parameter:  1 =  -->
+	<record model="ir.config_parameter" id="tax_amount_according_to_currency_exchange_on_payment_date">
+      <field name="key">tax_amount_according_to_currency_exchange_on_payment_date</field> 
+      <field name="value">1
+        1 = Use tax amount according to Payment Date, 
+          if there is a difference create line for Currency Exchange gain/loos
+        2 = Use tax amount according to Invoice Date</field>
+    </record>
+
+    </data>
+</openerp>
